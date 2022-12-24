@@ -8,6 +8,32 @@ html {
   height: 100%;
 }
 
+.iconDetails {
+  margin:0 0%;
+  padding:2%;
+  float:left;
+  height:200px;
+  width:200px;
+}
+
+.text {
+  float:left;
+}
+.text h4, .text p {
+  width:100%;
+  float:left;
+  font-size:0.6em;
+}
+.text p span {
+  color:#666;
+}
+
+.project_container {
+  width:100%;
+  height:auto;
+  padding:5%;
+}
+
 * { 
   margin: 0;
   padding: 0;

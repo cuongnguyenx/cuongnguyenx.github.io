@@ -7,10 +7,50 @@
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
   <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
 </head>
 
 <body>
-  <h1>Coming Soon!</h1>
+  <div id="main">
+    <header>
+      <div id="logo"><h1><a href="#">CV</a></h1></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">research</a></li>
+          <li><a href="project.html">projects</a></li>
+          <li><a href="blog.html">writing</a></li>
+          <li class="current"><a href="contact.html">CV</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+        <p>
+        <center>
+          <iframe src="CV.pdf" height="600" width="800"></iframe>
+        </center>
+      </p>
+      </div>
+    </div>
+    <footer>
+      
+      <p>&copy; 2022 Cuong Nguyen <br> <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
 </body>
 </html>
