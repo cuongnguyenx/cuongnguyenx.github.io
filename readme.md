@@ -1,1 +1,1 @@
-Personal website of Cuong (Johnny) Nguyen. Adapted from https://jonbarron.info/.
+Personal website by Cuong (Johnny) Nguyen. Adapted from https://jonbarron.info/.
